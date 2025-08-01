@@ -319,11 +319,11 @@ export default function LandingPage() {
                   I've tested, and my clients can't tell the difference. It's saved me hours of manual editing."
                 </p>
                 <div className="flex items-center">
-                  <img 
-			rc="/images/sarah.png" 
-			alt="Sarah Mitchell" 
-			class="w-12 h-12 rounded-full mr-4" 
-		  />
+                <img
+ 			src="/images/sarah.png"
+ 			alt="Sarah Mitchell"
+ 			className="w-12 h-12 rounded-full mr-4"
+		/>
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Sarah Mitchell</p>
                     <p className="text-sm text-[#A4A4A4]">Freelance Content Writer</p>
