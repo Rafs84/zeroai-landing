@@ -364,11 +364,11 @@ export default function LandingPage() {
                 <div className="flex items-center">
                   <img
  			src="/images/emily.png"
-  			alt="Dr. Emily Rodriguez"
+  			alt="Emily Rodriguez"
  			className="w-12 h-12 rounded-full mr-4"
 		  />
                   <div>
-                    <p className="font-semibold text-[#2C2C2E]">Dr. Emily Rodriguez</p>
+                    <p className="font-semibold text-[#2C2C2E]">Emily Rodriguez</p>
                     <p className="text-sm text-[#A4A4A4]">Freelance Copywriter</p>
                   </div>
                 </div>
