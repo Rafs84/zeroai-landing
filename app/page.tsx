@@ -490,20 +490,33 @@ export default function LandingPage() {
               <h3 className="text-lg font-semibold mb-4">Support</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/help" className="text-[#A4A4A4] hover:text-white transition-colors">
-                    Support
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/privacy" className="text-[#A4A4A4] hover:text-white transition-colors">
-                    Privacy Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/terms" className="text-[#A4A4A4] hover:text-white transition-colors">
-                    Terms of Service
-                  </Link>
-                </li>
+ 			 <a
+   			 href="mailto:support@buoywatch.com"
+   			 className="text-[#A4A4A4] hover:text-white transition-colors"
+			  >
+  			  Support
+			  </a>
+		</li>
+		<li>
+			  <a
+   			 href="https://sites.google.com/view/zeroai-privacy/home"
+   			 target="_blank"
+   			 rel="noopener noreferrer"
+   			 className="text-[#A4A4A4] hover:text-white transition-colors"
+  			>
+   			 Privacy Policy
+			  </a>
+		</li>
+		<li>
+			  <a
+			    href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+			    target="_blank"
+ 			   rel="noopener noreferrer"
+  			  className="text-[#A4A4A4] hover:text-white transition-colors"
+			  >
+			    Terms of Service
+ 			 </a>
+		</li>
                 <li>
                   
                 </li>
