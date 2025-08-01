@@ -14,7 +14,7 @@ export default function LandingPage() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <Image src="/images/robot-icon.png" alt="ZeroAI Robot" width={32} height={32} className="rounded-lg" />
-              <span className="text-2xl font-bold text-[#2C2C2E]">ZeroAI</span>
+              <span className="text-2xl font-bold text-[#2C2C2E]">Humanize AI | ZeroAI</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               
@@ -46,13 +46,12 @@ export default function LandingPage() {
               <div className="flex items-start gap-4 mb-6">
                 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2C2C2E] leading-tight">
-                  Humanize AI-generated text to pass AI detection
+                  Rewrite AI Text. Pass GPTZero, Turnitin, and More.
                 </h1>
               </div>
 
               <p className="text-xl text-[#A4A4A4] mb-8 leading-relaxed">
-                Transform robotic AI content into natural, human-like writing that seamlessly bypasses detection tools
-                like GPTZero, Turnitin, and more.
+                ZeroAI transforms AI-generated text into natural, human-sounding writing that passes detection tools like GPTZero, Turnitin, and Originality.ai.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -62,7 +61,7 @@ export default function LandingPage() {
                 >
                   <Link href="https://apps.apple.com/us/app/humanize-ai-zeroai/id6746722835" target="_blank">
                     <Download className="mr-2 h-5 w-5" />
-                    Download on App Store
+                    Download on the App Store
                   </Link>
                 </Button>
                 
@@ -98,7 +97,7 @@ export default function LandingPage() {
               Powerful Features for Perfect Humanization
             </h2>
             <p className="text-xl text-[#A4A4A4] max-w-2xl mx-auto">
-              Advanced AI technology that transforms robotic text into natural, human-like writing
+              Search engines are getting better at detecting low-quality, AI-generated content. If you publish with ChatGPT or other AI tools, ZeroAI helps rewrite it to sound human and optimize content.
             </p>
           </div>
 
@@ -108,12 +107,11 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-[#BDEEE8]/30 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-[#5BACC6]" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-[#2C2C2E]">Bypass AI Detectors</CardTitle>
+                <CardTitle className="text-xl font-semibold text-[#2C2C2E]">Pass AI Detection Tools</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-[#A4A4A4]">
-                  Successfully bypass GPTZero, ZeroGPT, Turnitin, Winston, Originality AI and more with 99.9% success
-                  rate.
+                  Rewrite content from ChatGPT or Claude so it sounds natural and bypasses tools like GPTZero, Turnitin, and Originality.ai.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -123,11 +121,11 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-[#BDEEE8]/30 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Globe className="w-8 h-8 text-[#5BACC6]" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-[#2C2C2E]">50+ Languages</CardTitle>
+                <CardTitle className="text-xl font-semibold text-[#2C2C2E]">Works in 50+ Languages</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-[#A4A4A4]">
-                  Humanize content in over 50 languages, making your AI-generated text natural and authentic worldwide.
+                  Perfect for global users rewriting essays, blogs, or product content in their native language
                 </CardDescription>
               </CardContent>
             </Card>
@@ -137,12 +135,11 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-[#BDEEE8]/30 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <FileText className="w-8 h-8 text-[#5BACC6]" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-[#2C2C2E]">Export to CSV</CardTitle>
+                <CardTitle className="text-xl font-semibold text-[#2C2C2E]">Bulk Export Support</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-[#A4A4A4]">
-                  Batch export your humanized content to CSV format for easy integration into your workflow and
-                  projects.
+                  Download your rewritten results in CSV format for fast editing and publishing at scale.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -152,12 +149,11 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-[#BDEEE8]/30 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Check className="w-8 h-8 text-[#5BACC6]" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-[#2C2C2E]">Error-Free Content</CardTitle>
+                <CardTitle className="text-xl font-semibold text-[#2C2C2E]">Clean, Human Writing</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-[#A4A4A4]">
-                  Generate plagiarism-free and error-free content that maintains quality while passing all detection
-                  systems.
+                 Get natural phrasing, real flow, and zero AI weirdness. Ready for school, SEO, or clients.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -315,8 +311,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <p className="text-[#A4A4A4] mb-6 italic">
-                  "ZeroAI completely transformed my writing workflow. The humanized content passes every AI detector
-                  I've tested, and my clients can't tell the difference. It's saved me hours of manual editing."
+                  "ZeroAI helped me rewrite my entire blog series. Everything passes Originality.ai and GPTZero, and still ranks on Google. It’s now part of my publishing workflow."
                 </p>
                 <div className="flex items-center">
                 <img
@@ -326,7 +321,7 @@ export default function LandingPage() {
 		/>
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Sarah Mitchell</p>
-                    <p className="text-sm text-[#A4A4A4]">Freelance Content Writer</p>
+                    <p className="text-sm text-[#A4A4A4]">SEO Specialist</p>
                   </div>
                 </div>
               </CardContent>
@@ -340,8 +335,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <p className="text-[#A4A4A4] mb-6 italic">
-                  "The mobile app is incredibly convenient. I can humanize my AI content on the go, and the batch export
-                  feature saves me so much time. The 50+ language support is amazing for my international clients."
+                  "My professor flagged my first draft for sounding too AI-written even though it was 100% me. I now run my papers through ZeroAI and they came out sounding more natural. Passed Turnitin, no issues."
                 </p>
                 <div className="flex items-center">
                   <img
@@ -351,7 +345,7 @@ export default function LandingPage() {
 		  />
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Michael Chen</p>
-                    <p className="text-sm text-[#A4A4A4]">Marketing Director</p>
+                    <p className="text-sm text-[#A4A4A4]">College Student</p>
                   </div>
                 </div>
               </CardContent>
@@ -365,8 +359,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <p className="text-[#A4A4A4] mb-6 italic">
-                  "I was skeptical at first, but ZeroAI actually works! The humanized text feels natural and authentic.
-                  I've been using it for my blog posts and academic writing - no detection issues whatsoever."
+                  "I write product pages and emails with AI, but clients can tell when it sounds robotic. ZeroAI gives it that human tone they expect, without extra editing."
                 </p>
                 <div className="flex items-center">
                   <img
@@ -376,7 +369,7 @@ export default function LandingPage() {
 		  />
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Dr. Emily Rodriguez</p>
-                    <p className="text-sm text-[#A4A4A4]">Academic Writer</p>
+                    <p className="text-sm text-[#A4A4A4]">Freelance Copywriter</p>
                   </div>
                 </div>
               </CardContent>
@@ -394,10 +387,9 @@ export default function LandingPage() {
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-[#5BACC6] to-[#BDEEE8]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Humanize Your AI Content?</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Rewrite Your AI Content So It Sounds Real?</h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join thousands of writers and content creators who trust ZeroAI to make their AI-generated text
-            undetectable.
+            Join students, marketers, and creators using ZeroAI to pass detectors and publish confidently.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
