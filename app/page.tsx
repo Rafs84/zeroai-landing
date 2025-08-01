@@ -319,11 +319,11 @@ export default function LandingPage() {
                   I've tested, and my clients can't tell the difference. It's saved me hours of manual editing."
                 </p>
                 <div className="flex items-center">
-                  <img
-                    src="/placeholder.svg?height=48&width=48"
-                    alt="Sarah Mitchell"
-                    className="w-12 h-12 rounded-full mr-4"
-                  />
+                  <img 
+			rc="/images/sarah.png" 
+			alt="Sarah Mitchell" 
+			class="w-12 h-12 rounded-full mr-4" 
+		  />
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Sarah Mitchell</p>
                     <p className="text-sm text-[#A4A4A4]">Freelance Content Writer</p>
@@ -345,10 +345,10 @@ export default function LandingPage() {
                 </p>
                 <div className="flex items-center">
                   <img
-                    src="/placeholder.svg?height=48&width=48"
-                    alt="Michael Chen"
-                    className="w-12 h-12 rounded-full mr-4"
-                  />
+ 			src="/images/michael.png"
+  			alt="Michael Chen"
+ 			className="w-12 h-12 rounded-full mr-4"
+		  />
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Michael Chen</p>
                     <p className="text-sm text-[#A4A4A4]">Marketing Director</p>
@@ -370,10 +370,10 @@ export default function LandingPage() {
                 </p>
                 <div className="flex items-center">
                   <img
-                    src="/placeholder.svg?height=48&width=48"
-                    alt="Dr. Emily Rodriguez"
-                    className="w-12 h-12 rounded-full mr-4"
-                  />
+ 			src="/images/emily.png"
+  			alt="Dr. Emily Rodriguez"
+ 			className="w-12 h-12 rounded-full mr-4"
+		  />
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Dr. Emily Rodriguez</p>
                     <p className="text-sm text-[#A4A4A4]">Academic Writer</p>
