@@ -410,14 +410,6 @@ export default function LandingPage() {
                 Download Now
               </Link>
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-white text-white hover:bg-white hover:text-[#5BACC6] text-lg px-8 py-4 bg-transparent font-semibold rounded-full"
-              asChild
-            >
-              <Link href="/contact">Contact Support</Link>
-            </Button>
           </div>
         </div>
       </section>
