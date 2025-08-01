@@ -20,7 +20,7 @@ export default function LandingPage() {
               
               
               
-              <Button size="sm" className="bg-[#5BACC6] hover:bg-[#2C2C2E] rounded-full text-white" asChild>
+              <Button size="sm" className="bg-[#2C2C2E] hover:bg-[#1B1B1D] rounded-full text-white" asChild>
                 <Link href="https://apps.apple.com/us/app/humanize-ai-zeroai/id6746722835" target="_blank">
                   <Download className="w-4 h-4 mr-2" />
                   Download App
@@ -56,7 +56,7 @@ export default function LandingPage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   size="lg"
-                  className="bg-[#5BACC6] hover:bg-[#2C2C2E] text-lg px-8 py-4 font-semibold rounded-full text-white"
+                  className="bg-[#2C2C2E] hover:bg-[#1B1B1D] text-lg px-8 py-4 font-semibold rounded-full text-white"
                   asChild
                 >
                   <Link href="https://apps.apple.com/us/app/humanize-ai-zeroai/id6746722835" target="_blank">
