@@ -378,7 +378,15 @@ export default function LandingPage() {
 
           {/* Trust Badges */}
           <div className="text-center">
-            
+           <div className="mt-12 flex justify-center">
+  <a href="https://www.uneed.best/tool/humanize-ai-zeroai" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://www.uneed.best/POTD3A.png"
+      alt="Uneed POTD3 Badge"
+      style={{ width: "250px" }}
+    />
+  </a>
+</div> 
             
           </div>
         </div>
