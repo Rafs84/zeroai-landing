@@ -375,41 +375,33 @@ export default function LandingPage() {
             </Card>
           </div>
 
-          {/* Trust Badges */}
+         {/* Trust Badges */}
 <div className="text-center">
-  <div className="mt-12 flex justify-center gap-6 items-center">
-    <a
-      href="https://www.uneed.best/tool/humanize-ai-zeroai"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+  <div className="mt-12 flex justify-center gap-4 items-center">
+    <a href="https://www.uneed.best/tool/humanize-ai-zeroai" target="_blank" rel="noopener noreferrer">
       <img
         src="https://www.uneed.best/POTD3A.png"
         alt="Uneed POTD3 Badge"
         style={{ width: "250px" }}
       />
     </a>
-    <a
-      href="https://fazier.com"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="https://fazier.com" target="_blank" rel="noopener noreferrer">
       <img
         src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=neutral"
+        width="120"
         alt="Fazier badge"
-        style={{ width: "120px" }}
       />
     </a>
-    <a href="https://magicbox.tools" target="_blank">
-  <img src="https://magicbox.tools/badge.svg" alt="Featured on MagicBox.tools" width="200" height="54" />
-</a>
+    <a href="https://magicbox.tools" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://magicbox.tools/badge.svg"
+        alt="Featured on MagicBox.tools"
+        width="200"
+        height="54"
+      />
+    </a>
   </div>
 </div>
-            
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-[#5BACC6] to-[#BDEEE8]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
