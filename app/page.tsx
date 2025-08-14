@@ -1,11 +1,15 @@
 'use client';
 
-import React from "react"; // optional with Next.js, but safe to keep
-import { Button } from "@/components/ui/button"; // only if you're using <Button>
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Download, Zap, Shield, Globe, FileText, Check, Star } from "lucide-react";
 
 export default function LandingPage() {
   return (
-    <>
     <div className="min-h-screen bg-white font-sans">
       {/* Navigation */}
       <nav className="border-b border-[#E0E0E0] bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
@@ -16,9 +20,6 @@ export default function LandingPage() {
               <span className="text-2xl font-bold text-[#2C2C2E]">Humanize AI | ZeroAI</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              
-              
-              
               <Button size="sm" className="bg-[#2C2C2E] hover:bg-[#1B1B1D] rounded-full text-white" asChild>
                 <Link href="https://apps.apple.com/us/app/humanize-ai-zeroai/id6746722835" target="_blank">
                   <Download className="w-4 h-4 mr-2" />
@@ -43,7 +44,6 @@ export default function LandingPage() {
 
               {/* Headline with App Icon */}
               <div className="flex items-start gap-4 mb-6">
-                
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2C2C2E] leading-tight">
                   Rewrite AI Text. Pass GPTZero, Turnitin, and More.
                 </h1>
@@ -63,7 +63,6 @@ export default function LandingPage() {
                     Download on the App Store
                   </Link>
                 </Button>
-                
               </div>
               <p className="text-sm text-[#A4A4A4] mt-4">3 days free trial • No credit card required</p>
             </div>
@@ -313,11 +312,11 @@ export default function LandingPage() {
                   "ZeroAI helped me rewrite my entire blog series. Everything passes Originality.ai and GPTZero, and still ranks on Google. It's now part of my publishing workflow."
                 </p>
                 <div className="flex items-center">
-                <img
- 			src="/images/sarah.png"
- 			alt="Sarah Mitchell"
- 			className="w-12 h-12 rounded-full mr-4"
-		/>
+                  <img
+                    src="/images/sarah.png"
+                    alt="Sarah Mitchell"
+                    className="w-12 h-12 rounded-full mr-4"
+                  />
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Sarah Mitchell</p>
                     <p className="text-sm text-[#A4A4A4]">SEO Specialist</p>
@@ -338,10 +337,10 @@ export default function LandingPage() {
                 </p>
                 <div className="flex items-center">
                   <img
- 			src="/images/michael.png"
-  			alt="Michael Chen"
- 			className="w-12 h-12 rounded-full mr-4"
-		  />
+                    src="/images/michael.png"
+                    alt="Michael Chen"
+                    className="w-12 h-12 rounded-full mr-4"
+                  />
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Michael Chen</p>
                     <p className="text-sm text-[#A4A4A4]">College Student</p>
@@ -362,10 +361,10 @@ export default function LandingPage() {
                 </p>
                 <div className="flex items-center">
                   <img
- 			src="/images/emily.png"
-  			alt="Emily Rodriguez"
- 			className="w-12 h-12 rounded-full mr-4"
-		  />
+                    src="/images/emily.png"
+                    alt="Emily Rodriguez"
+                    className="w-12 h-12 rounded-full mr-4"
+                  />
                   <div>
                     <p className="font-semibold text-[#2C2C2E]">Emily Rodriguez</p>
                     <p className="text-sm text-[#A4A4A4]">Freelance Copywriter</p>
@@ -375,33 +374,36 @@ export default function LandingPage() {
             </Card>
           </div>
 
-         {/* Trust Badges */} {/* Badge section updated manually */}
-<div className="text-center">
-  <div className="mt-12 flex justify-center gap-4 items-center">
-    <a href="https://www.uneed.best/tool/humanize-ai-zeroai" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://www.uneed.best/POTD3A.png"
-        alt="Uneed POTD3 Badge"
-        style={{ width: "250px" }}
-      />
-    </a>
-    <a href="https://fazier.com" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=neutral"
-        width="120"
-        alt="Fazier badge"
-      />
-    </a>
-    <a href="https://magicbox.tools" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://magicbox.tools/badge.svg"
-        alt="Featured on MagicBox.tools"
-        width="200"
-        height="54"
-      />
-    </a>
-  </div>
-</div>
+          {/* Trust Badges */}
+          <div className="text-center">
+            <div className="mt-12 flex justify-center gap-4 items-center">
+              <a href="https://www.uneed.best/tool/humanize-ai-zeroai" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://www.uneed.best/POTD3A.png"
+                  alt="Uneed POTD3 Badge"
+                  style={{ width: "250px" }}
+                />
+              </a>
+              <a href="https://fazier.com" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=neutral"
+                  width="120"
+                  alt="Fazier badge"
+                />
+              </a>
+              <a href="https://magicbox.tools" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://magicbox.tools/badge.svg"
+                  alt="Featured on MagicBox.tools"
+                  width="200"
+                  height="54"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-[#5BACC6] to-[#BDEEE8]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -436,23 +438,17 @@ export default function LandingPage() {
               <p className="text-[#A4A4A4] mb-6">
                 Transform AI-generated text into human-like writing that passes all detection tools.
               </p>
-              <div className="space-y-2">
-                
-              </div>
               <div className="flex space-x-4 mt-4">
                 <Link href="https://twitter.com/zeroai" className="text-[#A4A4A4] hover:text-white transition-colors">
-                  
                   <span className="sr-only">Twitter</span>
                 </Link>
                 <Link
                   href="https://linkedin.com/company/zeroai"
                   className="text-[#A4A4A4] hover:text-white transition-colors"
                 >
-                  
                   <span className="sr-only">LinkedIn</span>
                 </Link>
                 <Link href="https://github.com/zeroai" className="text-[#A4A4A4] hover:text-white transition-colors">
-                  
                   <span className="sr-only">GitHub</span>
                 </Link>
               </div>
@@ -480,47 +476,39 @@ export default function LandingPage() {
                     Download App
                   </Link>
                 </li>
-                <li>
-                  
-                </li>
               </ul>
             </div>
-
-            
 
             <div>
               <h3 className="text-lg font-semibold mb-4">Support</h3>
               <ul className="space-y-2">
                 <li>
- 			 <a
-   			 href="mailto:support@buoywatch.com"
-   			 className="text-[#A4A4A4] hover:text-white transition-colors"
-			  >
-  			  Support
-			  </a>
-		</li>
-		<li>
-			  <a
-   			 href="https://sites.google.com/view/zeroai-privacy/home"
-   			 target="_blank"
-   			 rel="noopener noreferrer"
-   			 className="text-[#A4A4A4] hover:text-white transition-colors"
-  			>
-   			 Privacy Policy
-			  </a>
-		</li>
-		<li>
-			  <a
-			    href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
-			    target="_blank"
- 			   rel="noopener noreferrer"
-  			  className="text-[#A4A4A4] hover:text-white transition-colors"
-			  >
-			    Terms of Service
- 			 </a>
-		</li>
+                  <a
+                    href="mailto:support@buoywatch.com"
+                    className="text-[#A4A4A4] hover:text-white transition-colors"
+                  >
+                    Support
+                  </a>
+                </li>
                 <li>
-                  
+                  <a
+                    href="https://sites.google.com/view/zeroai-privacy/home"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#A4A4A4] hover:text-white transition-colors"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#A4A4A4] hover:text-white transition-colors"
+                  >
+                    Terms of Service
+                  </a>
                 </li>
               </ul>
             </div>
@@ -532,6 +520,5 @@ export default function LandingPage() {
         </div>
       </footer>
     </div>
-      </>
-  )
+  );
 }
