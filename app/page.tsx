@@ -375,7 +375,7 @@ export default function LandingPage() {
             </Card>
           </div>
 
-         {/* Trust Badges */}
+         {/* Trust Badges */} {/* Badge section updated manually */}
 <div className="text-center">
   <div className="mt-12 flex justify-center gap-4 items-center">
     <a href="https://www.uneed.best/tool/humanize-ai-zeroai" target="_blank" rel="noopener noreferrer">
