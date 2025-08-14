@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Check, Zap, Star, Mail, Twitter, Linkedin, Github, Download, Globe, FileText, Shield } from "lucide-react"
-import Link from "next/link"
-import Image from "next/image"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Check, Zap, Star, Mail, Twitter, Linkedin, Github, Download, Globe, FileText, Shield } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function LandingPage() {
   return (
@@ -311,7 +311,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <p className="text-[#A4A4A4] mb-6 italic">
-                  "ZeroAI helped me rewrite my entire blog series. Everything passes Originality.ai and GPTZero, and still ranks on Google. It’s now part of my publishing workflow."
+                  "ZeroAI helped me rewrite my entire blog series. Everything passes Originality.ai and GPTZero, and still ranks on Google. It's now part of my publishing workflow."
                 </p>
                 <div className="flex items-center">
                 <img
