@@ -1,7 +1,3 @@
-Nooo, wait! You actually deleted almost everything from my site except for the sections "ready to humanize your content" downwards!
-
-Fuck it. 
-
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -405,6 +401,9 @@ export default function LandingPage() {
         style={{ width: "120px" }}
       />
     </a>
+    <a href="https://magicbox.tools" target="_blank">
+  <img src="https://magicbox.tools/badge.svg" alt="Featured on MagicBox.tools" width="200" height="54" />
+</a>
   </div>
 </div>
             
@@ -544,5 +543,3 @@ export default function LandingPage() {
     </div>
   )
 }
-
-I need you to fix it and give the whole thing fixed to me
