@@ -377,16 +377,32 @@ export default function LandingPage() {
           </div>
 
           {/* Trust Badges */}
-          <div className="text-center">
-           <div className="mt-12 flex justify-center">
-  <a href="https://www.uneed.best/tool/humanize-ai-zeroai" target="_blank" rel="noopener noreferrer">
-    <img
-      src="https://www.uneed.best/POTD3A.png"
-      alt="Uneed POTD3 Badge"
-      style={{ width: "250px" }}
-    />
-  </a>
-</div> 
+<div className="text-center">
+  <div className="mt-12 flex justify-center gap-6 items-center">
+    <a
+      href="https://www.uneed.best/tool/humanize-ai-zeroai"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://www.uneed.best/POTD3A.png"
+        alt="Uneed POTD3 Badge"
+        style={{ width: "250px" }}
+      />
+    </a>
+    <a
+      href="https://fazier.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=neutral"
+        alt="Fazier badge"
+        style={{ width: "120px" }}
+      />
+    </a>
+  </div>
+</div>
             
           </div>
         </div>
