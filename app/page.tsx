@@ -1,13 +1,11 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Check, Zap, Star, Mail, Twitter, Linkedin, Github, Download, Globe, FileText, Shield } from "lucide-react";
-import Link from "next/link";
-import Image from "next/image";
+'use client';
+
+import React from "react"; // optional with Next.js, but safe to keep
+import { Button } from "@/components/ui/button"; // only if you're using <Button>
 
 export default function LandingPage() {
   return (
+    <>
     <div className="min-h-screen bg-white font-sans">
       {/* Navigation */}
       <nav className="border-b border-[#E0E0E0] bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
@@ -542,5 +540,6 @@ export default function LandingPage() {
         </div>
       </footer>
     </div>
+      </>
   )
 }
